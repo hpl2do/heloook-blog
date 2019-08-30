@@ -20,7 +20,7 @@ module.exports = {
     // 博客数据源 目前只适配notion
     blog: {
         sourceType: 'notion',
-        url: 'https://www.notion.so/99623ef9630940cdb8524ba355831677?v=8366741ca7dd4b339c19484712e13563', // notion中文章表的链接
+        url: 'https://www.notion.so/heloook/b7a75db043974aedb6087e04215d508a?v=5e75d0e74c34494982cce55f6588e7d4', // notion中文章表的链接
         // 建议开启，可以大大提高build速度
         // 访问 https://github.com/settings/tokens 获取token 
         // export GitHubToken='yourtokenhere'
