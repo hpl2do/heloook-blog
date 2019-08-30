@@ -9,7 +9,7 @@ module.exports = {
         pageSize: 7, // 每页多少篇文章
         description: `All things about heloook`, // 网站描述 seo
         siteUrl: `https://www.heloook.com`, // 站点URL
-        aboutPostSlug: `10a70927d25a43d19acf14e0d36354e7`, //没有单独的about页面，about页面指向文章。
+        aboutPostSlug: `1dde680e328c40f0b2f50b74e635a0ff`, //没有单独的about页面，about页面指向文章。
         avatar: '41546411364_.pic.jpg', // src/static 目录下
         // 社交帐号配置，显示在页面最下方。
         me: {
