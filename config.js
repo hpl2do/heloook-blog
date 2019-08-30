@@ -4,16 +4,16 @@
 module.exports = {
     // blog mate
     blogMeta: {
-        name: 'Mayne', // copyright 显示
-        title: `Mayne's Blog`, //网站标题
-        pageSize: 3, // 每页多少篇文章
-        description: `All things about Mayne`, // 网站描述 seo
+        name: 'heloook', // copyright 显示
+        title: `heloook's blog`, //网站标题
+        pageSize: 7, // 每页多少篇文章
+        description: `All things about heloook`, // 网站描述 seo
         siteUrl: `https://www.heloook.com`, // 站点URL
         aboutPostSlug: `10a70927d25a43d19acf14e0d36354e7`, //没有单独的about页面，about页面指向文章。
-        avatar: '41546411364_.pic.jpg', // src/static 目录下
+        avatar: 'avatar.jpg', // src/static 目录下
         // 社交帐号配置，显示在页面最下方。
         me: {
-            github: 'mayneyao' // github 用户名称
+            github: 'hpl2do' // github 用户名称
         }
     },
 
@@ -24,9 +24,9 @@ module.exports = {
         // 建议开启，可以大大提高build速度
         // 访问 https://github.com/settings/tokens 获取token 
         // export GitHubToken='yourtokenhere'
-        openGithubCache: false, // 开启此配置后，notion页面的数据会缓存到github仓库。需要在环境变量中配置 GitHubToken
+        openGithubCache: true, // 开启此配置后，notion页面的数据会缓存到github仓库。需要在环境变量中配置 GitHubToken
         github: {
-            username: 'mayneyao', // github 用户名
+            username: 'hpl2do', // github 用户名
             repo: 'blog', // 作为blog缓存数据仓库的名称
             branch: 'master' // 作为blog缓存数据仓库的分支
         },
@@ -39,7 +39,7 @@ module.exports = {
     // 友链
     friendLink: {
         sourceType: 'notion',
-        url: 'https://www.notion.so/71d6656af07e418a92b3fe966a4ba087?v=1329463e9dfe45899caf28d317b84d50', // notion中友链表的链接
+        url: 'https://www.notion.so/heloook/2cc5b020ec914b6cb5cb8e8085983a61?v=fb63436d7e434857996bb0a47abc389e', // notion中友链表的链接
     },
 
     // 下面的是可选组件
@@ -59,7 +59,7 @@ module.exports = {
         url: 'http://space.bilibili.com/ajax/Bangumi/getList?mid=22539301&page=1', // 替换自己为自己的mid 
     },
 
-    // 格言
+    // 格言//无效
     aphorisms: {
         open: false, // 默认关闭 需要api
         sourceType: 'notion',
@@ -100,9 +100,9 @@ module.exports = {
 
     // seo 
     seo: {
-        open: false, // 如果部署在netlify上，为了更好的seo，请开启此选项
-        siteUrl: 'https://gine.me', // 站点url
-        netlifyUrl: 'https://gine.netlify.com' //netlify分配的url
+        open: true, // 如果部署在netlify上，为了更好的seo，请开启此选项
+        siteUrl: 'https://www.heloook.com', // 站点url
+        netlifyUrl: 'https://heloook.netlify.com' //netlify分配的url
     },
 
     // sitemap
