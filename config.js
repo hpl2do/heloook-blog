@@ -61,7 +61,7 @@ module.exports = {
 
     // 格言//无效
     aphorisms: {
-        open: true, // 默认关闭 需要api
+        open: false, // 默认关闭 需要api
         sourceType: 'notion',
         url: 'https://www.notion.so/heloook/f38854123bac4aebb2955195c9317fcb?v=d2f3e81650284812a59defdfa282e661', // notion 表格地址
         // 返回格式参见上面链接的内容
