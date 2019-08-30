@@ -121,7 +121,7 @@ module.exports = {
     },
     // PWA 优化 
     pwa: {
-        open: true, //默认关闭
+        open: false, //默认关闭
 
         // 配置参见 gatsby-plugin-manifest 插件文档
         conf: {
