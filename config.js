@@ -107,7 +107,7 @@ module.exports = {
 
     // sitemap
     sitemap: {
-        open: false, // 默认关闭，站点地图 seo友好
+        open: true, // 默认关闭，站点地图 seo友好
     },
     // Google Analytics
     ga: {
@@ -121,12 +121,12 @@ module.exports = {
     },
     // PWA 优化 
     pwa: {
-        open: false, //默认关闭
+        open: true, //默认关闭
 
         // 配置参见 gatsby-plugin-manifest 插件文档
         conf: {
-            name: `Mayne's Blog`,
-            short_name: `Mayne's Blog`,
+            name: `helook's blog`,
+            short_name: `heloook's blog`,
             start_url: `/`,
             background_color: `#ffffff`,
             theme_color: `#ffffff`,
