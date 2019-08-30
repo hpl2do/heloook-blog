@@ -3,7 +3,7 @@ const fs = require("fs")
 const path = require("path")
 
 syncAphorisms = async () => {
-    let res = await queryCollection('https://www.notion.so/gine/b23848d867974c36a2902ec4cb833453?v=29915c889d4c415cbfb9e9bf7dd49afd')
+    let res = await queryCollection('https://www.notion.so/heloook/f38854123bac4aebb2955195c9317fcb?v=d2f3e81650284812a59defdfa282e661')
     let data = JSON.stringify(res)
 
     let rootPath = path.dirname(path.dirname(__dirname))
