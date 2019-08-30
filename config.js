@@ -45,10 +45,10 @@ module.exports = {
     // 下面的是可选组件
     // 评论
     comment: {
-        open: false, //默认关闭，仅适配disqus
+        open: true, //默认关闭，仅适配disqus
         sourceType: 'disqus',
         disqus: {
-            disqusShortname: 'maynes-blog' // 你的短域名
+            disqusShortname: 'my-blog-ngtr4qzpmb' // 你的短域名
         }
     },
 
