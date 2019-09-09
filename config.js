@@ -6,7 +6,7 @@ module.exports = {
     blogMeta: {
         name: 'heloook', // copyright 显示
         title: `heloook's blog`, //网站标题
-        pageSize: 7, // 每页多少篇文章
+        pageSize: 3, // 每页多少篇文章
         description: `All things about heloook`, // 网站描述 seo
         siteUrl: `https://www.heloook.com`, // 站点URL
         aboutPostSlug: `1dde680e328c40f0b2f50b74e635a0ff`, //没有单独的about页面，about页面指向文章。
@@ -100,14 +100,14 @@ module.exports = {
 
     // seo 
     seo: {
-        open: true, // 如果部署在netlify上，为了更好的seo，请开启此选项
+        open: false, // 如果部署在netlify上，为了更好的seo，请开启此选项
         siteUrl: 'https://www.heloook.com', // 站点url
         netlifyUrl: 'https://heloook.netlify.com' //netlify分配的url
     },
 
     // sitemap
     sitemap: {
-        open: true, // 默认关闭，站点地图 seo友好
+        open: false, // 默认关闭，站点地图 seo友好
     },
     // Google Analytics
     ga: {
@@ -125,7 +125,7 @@ module.exports = {
 
         // 配置参见 gatsby-plugin-manifest 插件文档
         conf: {
-            name: `helook's blog`,
+            name: `heloook's blog`,
             short_name: `heloook's blog`,
             start_url: `/`,
             background_color: `#ffffff`,
