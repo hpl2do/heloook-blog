@@ -36,11 +36,11 @@ module.exports = {
         }
     },
 
-    // 友链
-    friendLink: {
-        sourceType: 'notion',
-        url: '', // notion中友链表的链接
-    },
+//     // 友链
+//     friendLink: {
+//         sourceType: 'notion',
+//         url: '', // notion中友链表的链接
+//     },
 
     // 下面的是可选组件
     // 评论
