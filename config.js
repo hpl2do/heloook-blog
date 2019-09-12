@@ -38,6 +38,7 @@ module.exports = {
 
     // 友链
     friendLink: {
+        open: false,
         sourceType: 'notion',
         url: 'https://www.notion.so/heloook/2cc5b020ec914b6cb5cb8e8085983a61?v=fb63436d7e434857996bb0a47abc389e', // notion中友链表的链接
     },
@@ -45,7 +46,7 @@ module.exports = {
     // 下面的是可选组件
     // 评论
     comment: {
-        open: true, //默认关闭，仅适配disqus
+        open: false, //默认关闭，仅适配disqus
         sourceType: 'disqus',
         disqus: {
             disqusShortname: 'my-blog-ngtr4qzpmb' // 你的短域名
