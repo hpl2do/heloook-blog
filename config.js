@@ -38,9 +38,8 @@ module.exports = {
 
     // 友链
     friendLink: {
-        open: false,
         sourceType: 'notion',
-        url: 'https://www.notion.so/heloook/2cc5b020ec914b6cb5cb8e8085983a61?v=fb63436d7e434857996bb0a47abc389e', // notion中友链表的链接
+        url: '', // notion中友链表的链接
     },
 
     // 下面的是可选组件
